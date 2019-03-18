@@ -8,11 +8,32 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
- 
-    
+
+    <div class="Header">
+                    <h1>Temperature-converter</h1>
+                   
+    </div>
+    <div id="temp-Input">
+     <input id="tempInput" type="number" placeholder='Enter Temperature' >
+    </div>
+     <br>
+     <div id="temp-Output">
+     <input type="number" placeholder='Value' >
+    </div>
+     <br>
+
+     F: <input type="radio"  name='tempRadioButton' id='C2f' value="F" checked/>
+     C: <input type="radio"  name='tempRadioButton' id='F2c' value="C"/>
+     <br>
+
+     <button id="convertButton">Convert</button>
+     <br>
+     <button id="clearButton">Clear</button>
+     
 
 
 
-    <script src="./main.css"></script>
+
+    <script src="./main.js"></script>
 </body>
 </html>
